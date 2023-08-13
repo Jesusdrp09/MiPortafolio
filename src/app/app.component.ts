@@ -8,8 +8,8 @@ import { ServiciosService } from './servicios.service';
 })
 export class AppComponent {
   title = 'MiPortafolio';
-  width = screen.availWidth;
-  height = screen.availHeight*0.902;
+  width = screen.availWidth*0.998;
+  height = screen.availHeight*0.859;
 
   constructor(public servicios: ServiciosService) {}
 

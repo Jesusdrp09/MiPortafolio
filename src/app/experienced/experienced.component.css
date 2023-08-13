@@ -1,0 +1,17 @@
+h1{
+    color: #7c6d53;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.items{
+    width: 400px;
+    display: inline;
+    margin-right: 12px;
+    color: #e1a461;;
+}
+
+#projects{
+    display: flex;
+}

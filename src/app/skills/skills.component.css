@@ -1,0 +1,27 @@
+#programming{
+    width: 400px;
+}
+
+.tool{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 45px;
+}
+
+.tool:hover{
+    width: 60px;
+}
+
+.languages{
+    color: #e1a461;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.title{
+    color: #7c6d53;
+    font-family: serif;
+    font-size: 30px;
+}

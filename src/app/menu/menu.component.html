@@ -1,0 +1,31 @@
+<div class="content">
+    <div class="menu" [hidden]="menuOn" #menu>
+        <h1 class="display-1 name">Jesús Ríos</h1>
+        <a routerLink="about me" routerLinkActive="active" class="option">
+            <h2 class="menuOption">ABOUT ME</h2>
+        </a>
+        <a routerLink="skills" routerLinkActive="active" class="option">
+            <h2 class="menuOption">SKILLS</h2>
+        </a>
+        <a routerLink="experienced" routerLinkActive="active" class="option">
+            <h2 class="menuOption">EXPERIENCED</h2>
+        </a>
+        <a routerLink="contact" routerLinkActive="active" class="option">
+            <h2 class="menuOption">CONTACT</h2>
+        </a>
+    </div>
+    <div class="secciones" [hidden]="!menuOn">
+        <nav class="nav">
+            <ul>
+                <a [routerLink]="opcion" routerLinkActive="active" *ngFor="let opcion of opciones"
+                (click)="seccion(opcion)">
+                    <li class="opt">
+                        {{opcion}}
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <h1 id="elegida">{{elegida}}</h1>
+    </div>
+    <router-outlet></router-outlet>
+  </div>

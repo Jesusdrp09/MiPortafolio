@@ -1,0 +1,65 @@
+
+.name{
+    color: #7c6d53;
+    font-family: serif;
+    text-align: center;
+}
+
+.content{
+    margin-left: 10%;
+    padding-top: 3%;
+    width: 34%;
+    align-items: center;
+}
+
+.menuOption{
+    color: #e1a461;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+    width: 400px;
+    padding: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-image: url('../../assets/img/bordes.svg');
+    background-size: 400px; 
+    background-repeat: no-repeat;
+}
+
+.menuOption:hover{
+    background-image: none;
+    font-size: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+.option{
+    text-decoration: none;
+}
+
+.opt{
+    color: #7c6d53;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.opt:hover{
+    font-size: 25px;
+}
+
+#elegida{
+    color: #7c6d53;
+    font-family: serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
